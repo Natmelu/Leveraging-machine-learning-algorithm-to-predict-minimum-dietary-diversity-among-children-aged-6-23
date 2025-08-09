@@ -1,2 +1,10 @@
-# Leveraging-machine-learning-algorithm-to-predict-minimum-dietary-diversity-among-children-aged-6-23
-Machine learning-based analysis for predicting minimum dietary diversity among children aged 6–23 months, using statistical and model-driven approaches for improved nutrition insights.
+#Leveraging machine learning algorithm to predict minimum dietary diversity among children aged 6–23 months in Ethiopia.
+#this progect contains a machine learning algorithm implemenented in python. 
+#All the required library is located inside the module
+#Abstract 
+Lack of nutrient-rich food consumption is considered an important underlying factor affecting the healthy development of children, and can lead to developmental delays and various disorders. There is limited evidence on the predicators of dietary diversity. We aimed to train and test eight machine learning algorithms in the Ethiopian demographic and health survey (EDHS) from 2005–2019. We used secondary data from EDHS 2005, 2011, 2016 and 2019. A total of 8,996 weighted samples of children aged 6–23 months were included in the study. STATA 17 was used to extract variables from the EDHS dataset. Python 3.11 software was used for data cleaning, coding, and further analysis. The machine learning algorithms used in this study were logistic regression, random forest, K nearest neighbor (KNN), multilayer perceptron (MLP), support vector machine, naive Bayes, extreme gradient Boost (XGBoost), and AdaBoost. Furthermore, Shapley additive explanation’s (SHAPs) were used for model interpretability and to identify top predictors.  The random forest classifier (accuracy = 82%, recall = 84.9%, precision = 78.5%, F1-score = 81.7%, area under the curve: AUC = 89%) was the best model for predicting minimum dietary diversity among children aged 6–23 month. The top ten predicators were place of delivery, sex of the household head, water source, place of residence, age of a the child, number of children under five years of age, women’s years of age, and household size.  The random forest algorithm was selected as the best performing algorithm and revealed that having children who were born at home, being female household heads, having a child between the ages of 12–17 years and 18–23 years, having children living with 7–10 family members, and living in rural areas increased the likelihood of inadequate minimum dietary diversity. 
+Keywords: Minimum dietary diversity, machine learning, Shapley additive explanation, Association rule mining, Ethiopia  
+Requirment 
+Install dependencies 
+
+

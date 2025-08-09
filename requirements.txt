@@ -1,0 +1,12 @@
+collections
+imblearn==0.12.4
+matplotlib==3.6.3
+mlxtend
+numpy==1.24.0
+shap==0.39.0
+pandas==1.5.3
+seaborn==0.11.2
+scikit-learn==1.1.3
+xgboost ==1.4.2
+optuna
+apyori
